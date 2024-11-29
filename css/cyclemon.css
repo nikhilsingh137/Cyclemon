@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header ul li {
+  padding: 20px 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Imagebox {
+  background: url("https://cyclemon.com/images/titre.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+.Imagebox .color {
+  height: 140vh;
+  background: #fec56d;
+  position: relative;
+  z-index: -2;
+}
+
+.cycleBack {
+  background: url("	https://cyclemon.com/images/fond18.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle {
+  background: url("https://cyclemon.com/images/velo18.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 113%;
+  background-attachment: fixed;
+}
+.cycle1Back {
+  background: url("https://cyclemon.com/images/fond1.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle1 {
+  background: url("https://cyclemon.com/images/traveler.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle2Back {
+  background: url("https://cyclemon.com/images/fond2.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle2 {
+  background: url("https://cyclemon.com/images/weirdo.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle3Back {
+  background: url("https://cyclemon.com/images/fond3.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle3 {
+  background: url("https://cyclemon.com/images/velo3.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle4Back {
+  background: url("https://cyclemon.com/images/fond4.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle4 {
+  background: url("https://cyclemon.com/images/velo4.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle5Back {
+  background: url("https://cyclemon.com/images/fond5.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle5 {
+  background: url("https://cyclemon.com/images/velo5.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle6Back {
+  background: url("https://cyclemon.com/images/fond6.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle6 {
+  background: url("https://cyclemon.com/images/velo6.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle7Back {
+  background: url("https://cyclemon.com/images/fond7.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle7 {
+  background: url("https://cyclemon.com/images/velo7.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle8Back {
+  background: url("	https://cyclemon.com/images/fond8.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle8 {
+  background: url("https://cyclemon.com/images/velo8.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle9Back {
+  background: url("https://cyclemon.com/images/fond9.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle9 {
+  background: url("https://cyclemon.com/images/velo9.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle10Back {
+  background: url("https://cyclemon.com/images/fond10.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle10 {
+  background: url("https://cyclemon.com/images/velo10.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle11Back {
+  background: url("	https://cyclemon.com/images/fond11.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle11 {
+  background: url("https://cyclemon.com/images/velo11.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle12Back {
+  background: url("	https://cyclemon.com/images/fond122.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle12 {
+  background: url("https://cyclemon.com/images/velo12.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle13Back {
+  background: url("https://cyclemon.com/images/fond13.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle13 {
+  background: url("	https://cyclemon.com/images/velo13.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle14Back {
+  background: url("https://cyclemon.com/images/fond14.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle14 {
+  background: url("https://cyclemon.com/images/velo14.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle16Back {
+  background: url("https://cyclemon.com/images/fond15.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle16 {
+  background: url("https://cyclemon.com/images/velo15.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle17Back {
+  background: url("https://cyclemon.com/images/fond16.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle17 {
+  background: url("https://cyclemon.com/images/velo16.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+.cycle18Back {
+  background: url("https://cyclemon.com/images/fond17.jpg");
+  height: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cycle18 {
+  background: url("https://cyclemon.com/images/velo17.png");
+  background-repeat: no-repeat;
+  height: 140vh;
+  background-position: 50% 95%;
+  background-attachment: fixed;
+}
+
+.footer {
+  background: #f68076;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -10;
+}
+
+.foot {
+  display: block;
+  position: fixed;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.foot img {
+  padding: 20px 0px;
+}
+
+.foot hr {
+  background: #fff;
+  height: 5px;
+  outline: none;
+  border: none;
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .header ul li {
+    padding: 20px 10px;
+  }
+  .header ul li a {
+    font-size: 10px;
+  }
+
+  .Imagebox {
+    background-size: contain;
+  }
+
+  .cycle,
+  .cycle1,
+  .cycle2,
+  .cycle3,
+  .cycle4,
+  .cycle5,
+  .cycle6,
+  .cycle7,
+  .cycle8,
+  .cycle9,
+  .cycle10,
+  .cycle11,
+  .cycle12,
+  .cycle13,
+  .cycle14,
+  .cycle15,
+  .cycle16,
+  .cycle17,
+  .cycle18 {
+    background-size: contain;
+  }
+
+  .footer .foot {
+    width: 300px;
+  }
+
+  .footer .foot img {
+    max-width: 200px;
+  }
+}
