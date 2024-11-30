@@ -383,6 +383,10 @@ body {
     background-size: contain;
   }
 
+  .cycle {
+    background-position: 50% 98%;
+  }
+
   .cycle,
   .cycle1,
   .cycle2,
